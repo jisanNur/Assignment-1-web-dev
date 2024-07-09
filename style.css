@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
 }
 /* navigation bar start  */
 .navigation-bar{
@@ -42,7 +42,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,6 +57,7 @@ body{
 }
 .banner-contant h1{
     color: rgb(13, 19, 33);
+    font-family: monospace;
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -64,12 +65,13 @@ body{
 }
 .banner-contant  p{
     color: rgb(13, 19, 33);
+    font-family: monospace;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
 }
 .banner-contant .banner-btn {
-   margin-top: 30px;
+   margin-top: 50px;
 }
 .banner-contant .banner-btn a{
    box-sizing: border-box;
