@@ -353,3 +353,21 @@ body{
     border: none;
 }
 /* support section end here  */
+
+/* foorter section starts here */
+footer .footer-challange{
+    width: 1500;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* foorter section ends here */
