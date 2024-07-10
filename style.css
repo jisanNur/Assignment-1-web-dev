@@ -7,7 +7,7 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-/* navigation bar start  */
+/* navigation bar style start  */
 .navigation-bar{
     display: flex;
     justify-content: space-between;
@@ -31,9 +31,9 @@ body{
     box-sizing: border-box;
     border-radius: 5px;
 }
-/* navigation bar end  */
+/* navigation bar style end  */
 
-/* banner section start  */
+/* banner section style start  */
 .banner-container{
     margin: 0 auto;
 }
@@ -86,9 +86,9 @@ body{
    padding: 20px;
    border-radius: 10px;
 }
-/* banner section end  */
+/* banner section style end  */
 
-/* midle container  section start here  */
+/* midle container  section style start here  */
 .midle-container{
     width: 1500px;
     height: 1395px;
@@ -171,13 +171,12 @@ body{
     margin: 50px 150px;
     height: 300px;
 }
-/* midle container  section end here  */
+/* midle container  section style end here  */
 
-/* social video contant start here  */
+/* social video contant style start here  */
 .social-video-contant{
-    /* border: 2px solid red; */
-    width: 1140px;
-    height: 775px;
+    width: 1500px;
+    height: 790px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -204,6 +203,101 @@ body{
     padding: 30px;
     border: 1px solid rgba(14, 13, 13, 0.507);
     border-radius: 20px;
+    width: 1500px;
+    height: 600px;
 }
 
-/* social video contant end here  */
+/* social video contant style end here  */
+
+/* current-target-container section style start here  */
+.current-target-container{
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.current-target-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    
+}
+.current-target-text h1{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 15px;
+}
+.current-target-text p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.skills-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    text-align: justify;
+    gap: 50px;
+}
+.skills-contant-html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+
+}
+.skills-contant-html h4{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.skills-contant-html p{
+    font-size: 16px;
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+.skills-contant-html .skill-btn a{
+   color: black;
+   text-decoration: underline;
+}
+
+.skills-contant-css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    
+}
+.skills-contant-css h4{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.skills-contant-css p{
+    font-size: 16px;
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+.skills-contant-css .skill-btn a{
+    color: black;
+   text-decoration: underline;
+}
+.skills-contant-javascript{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 48px;
+}
+.skills-contant-javascript h4{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.skills-contant-javascript p{
+    font-size: 16px;
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+.skills-contant-javascript .skill-btn a{
+    color: black;
+    text-decoration: underline;
+}
+/* current-target-container section style end here  */
