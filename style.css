@@ -301,3 +301,44 @@ body{
     text-decoration: underline;
 }
 /* current-target-container section style end here  */
+
+/* support section start here */
+
+.support-container{
+   background-image: url("./assets/handshake.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-color: rgba(0, 0, 0, 0.7);
+   max-width: 1500px;
+   height: 300px;
+   border: 2px solid red;
+   margin: 0 auto;
+   border-radius: 15px;
+   display: flex;
+   text-align: center;
+   flex-direction: column ;
+   justify-content: center;
+   align-items: center;
+   background-blend-mode: overlay;
+}
+.support-contant h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.support-contant p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    opacity: 0.7;
+}
+.input-massage .input-text{
+    padding: 10px 70px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: left;
+}
+/* support section end here  */
