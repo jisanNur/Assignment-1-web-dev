@@ -172,3 +172,38 @@ body{
     height: 300px;
 }
 /* midle container  section end here  */
+
+/* social video contant start here  */
+.social-video-contant{
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.social-text-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-text-contant h1{
+    padding: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.social-text-contant p{
+    padding: 0 60px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+.social-video-contant iframe{
+    padding: 30px;
+    border: 1px solid rgba(14, 13, 13, 0.507);
+    border-radius: 20px;
+}
+
+/* social video contant end here  */
